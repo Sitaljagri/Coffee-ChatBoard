@@ -1,0 +1,39 @@
+/* src/components/OrderSummary/OrderSummary.css */
+
+.order-summary {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  color: #333;
+}
+
+.order-summary-title {
+  font-size: 1.5rem;
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.order-details {
+  font-size: 1rem;
+}
+
+.order-item {
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.order-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #d9534f;
+  margin-top: 15px;
+}
+
+.order-message {
+  font-size: 1rem;
+  color: #777;
+}
